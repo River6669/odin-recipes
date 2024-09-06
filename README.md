@@ -1,1 +1,2 @@
 # odin-recipes
+This will be the first "real" website I design. I will be using all the skills I have so far to make a very simple website for recipes. I want to have fun and challenge myself to use my newfound coding skills.
