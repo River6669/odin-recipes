@@ -1,0 +1,17 @@
+.header-main {
+    background-color: #FFC0CB;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Brush Script MT", "Georgia", cursive;
+
+}
+body {
+    background-color: #000000;
+    color: #FFC0CB;
+}
+:link {
+    color: #FFE4E1;
+}
+:visited {
+    color: #C71585;
+}
