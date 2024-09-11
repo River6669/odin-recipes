@@ -1,4 +1,5 @@
 .header-main {
+    text-decoration-line: none;
     background-color: #FFC0CB;
     text-align: center;
     font-size: 50px;
@@ -18,9 +19,12 @@ a:visited {
     color: #C71585;
 }
 a:hover {
-    text-decoration: underline #FFC0CB;
-    color: #FFC0CB;
+    text-decoration: underline #FFE4E1;
+    color: #FFE4E1;
 }
 ul {list-style-type: none;
 
+}
+.header-main a:hover {
+    text-decoration-line: none;
 }
