@@ -28,3 +28,7 @@ ul {list-style-type: none;
 .header-main a:hover {
     text-decoration-line: none;
 }
+
+* {
+    outline: 2px solid red;
+}
