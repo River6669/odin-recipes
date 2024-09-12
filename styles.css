@@ -28,21 +28,21 @@ ul {list-style-type: none;
 .header-main a:hover {
     text-decoration-line: none;
 }
-ul.nav-bar {
-    list-style-type: none;
-    margin: 0;
-    background-color: #FFC0CB;
-    height: 25px;
-    font-size: large;
-    padding: 10px;
-    padding-inline: 10px;
-}
 div.nav li {
-    display: inline;
+    display: inline-flex;
+   
 }
+div.nav {
+    background-color: #FFC0CB;
+}
+
 .nav a:link {
+    background-color: #FFC0CB;
+    display: inline-block;
     color: #000000;
-}
-* {
-    outline: 2px solid red;
+    padding: 20px 12px;
+    margin: 0 0;
+    font-size: large;
+    font-weight: bold;
+    
 }
