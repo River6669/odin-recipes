@@ -23,13 +23,15 @@ a:hover {
     color: #FFE4E1;
 }
 ul {list-style-type: none;
-
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
 .header-main a:hover {
     text-decoration-line: none;
 }
 div.nav li {
-    display: inline-flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
    
 }
 div.nav {
@@ -47,3 +49,14 @@ div.nav {
     
 }
 
+div.rec-container a:link {
+   text-align: center;
+    background-color: #000000;
+    text-decoration-color: #FFC0CB;
+    color: #FFC0CB;
+}
+.rec-container {
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
