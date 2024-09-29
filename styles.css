@@ -40,23 +40,63 @@ div.nav {
 
 .nav a:link {
     background-color: #FFC0CB;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 14%, 12%, 12%, 22%, 24%, 16%;
     color: #000000;
-    padding: 20px 12px;
+    
     margin: 0 0;
     font-size: large;
     font-weight: bold;
     
 }
 
-div.rec-container a:link {
+.rec-container a:link {
    text-align: center;
-    background-color: #000000;
-    text-decoration-color: #FFC0CB;
-    color: #FFC0CB;
+    background-color: #FFC0CB;
+    text-decoration-color: #cc7482;
+    color: #C71585;
+    padding: 15px;
+    margin: 10px;
+}
+.rec-container a:hover {
+    text-decoration-color: #cc7482;
+    color: #cc7482;
 }
 .rec-container {
     display: grid;
     gap: .5rem;
     grid-template-columns: repeat(2, 1fr);
+}
+.rec-container ul{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.rec-container li{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #79365fbe;
+    padding: 10px;
+    margin: 0%;
+}
+.nav ul{
+    list-style-type: none;
+    background-color: #FFC0CB;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.nav a{
+    color: #C71585;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.nav li{
+    float: left;
+    padding: 0;
 }
